@@ -141,9 +141,6 @@ $custodian = app(Custodian::class);
 $custodian->register('create-user');
 $custodian->register('view-user');
 $custodian->register('view-user-support-tickets');
-
-// permissions must be registered before they can be assigned to roles
-// you could do this in your app's AppServiceProvider
 ```
 
 ### Listing Available Permissions
